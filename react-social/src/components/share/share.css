@@ -1,0 +1,59 @@
+.share {
+    @apply w-full rounded-xl shadow-lg bg-secondaryHeadline bg-opacity-20 backdrop-blur
+}
+
+.shareWrapper {
+    @apply p-3
+}
+
+.shareTop {
+    @apply flex items-center py-3 ml-5 space-x-5
+}
+
+.shareProfileImg {
+    @apply w-12 h-12 rounded-full object-cover mr-3
+}
+
+.shareInput {
+    @apply border-none w-3/4 px-5 py-2 rounded-lg    focus:outline-none
+}
+
+.shareHr {
+    @apply m-5
+}
+
+.shareBottom {
+    @apply flex items-center justify-between py-3 ml-5
+}
+
+.shareOptions {
+    @apply flex 
+} 
+
+.shareOption {
+    @apply flex items-center mr-4 cursor-pointer text-primaryHeadline
+}
+
+.shareIcon {
+    @apply text-lg mr-1 !important
+}
+
+.shareOptionText {
+    @apply text-base font-medium
+}
+
+.shareButton {
+    @apply text-lg w-36 border-none p-2 rounded-md bg-mainPurple  font-medium mr-5 cursor-pointer text-white
+}
+
+.shareImgContainer {
+    @apply pt-0 pr-5 pb-3 pl-5 relative
+}
+
+.shareImg {
+    @apply w-full object-cover
+}
+
+.shareCancelImg {
+    @apply absolute top-0 right-5 cursor-pointer opacity-70
+}

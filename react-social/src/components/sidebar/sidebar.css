@@ -1,0 +1,58 @@
+.sidebar {
+    @apply hidden lg:flex flex-[3] sticky top-24
+}
+
+.sidebarHeight {
+    @apply h-[calc(100vh-70px)]
+}
+
+::-webkit-scrollbar {
+    @apply w-1
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-[#f1f1f1]
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-mainPurple
+}
+
+.sidebarWrapper {
+    @apply ml-5 mt-5 w-full
+    /* bg-secondaryHeadline bg-opacity-20 */
+    rounded-xl overflow-y-auto
+}
+
+.sidebarList {
+    @apply p-0 m-7 list-none
+}
+
+.sidebarListItem {
+    @apply flex items-center py-5 my-2 rounded-lg text-primaryHeadline cursor-pointer
+}
+
+.inactiveItem {
+    @apply hover:bg-secondaryHeadline hover:bg-opacity-20
+}
+
+.activeItem {
+    background: linear-gradient(180deg, #5458F7 0%, #464ACE 100%);
+    box-shadow: 4.24544e-16px 6.93333px 13.8667px rgba(17, 18, 49, 0.247), inset -1.33967e-16px -2.18785px 2.18785px #4346C4, inset 1.33967e-16px 2.18785px 2.18785px #6266FF;
+}
+
+.sidebarIcon {
+    @apply mx-6
+}
+
+.sidebarButton {
+    @apply w-[150px] border-none p-3 rounded-md font-medium
+}
+
+.sidebarHr {
+    @apply mt-5 mb-5
+}
+
+.sidebarFriendList {
+    @apply p-0 m-0 list-none
+}

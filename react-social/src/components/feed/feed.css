@@ -1,0 +1,7 @@
+.feed {
+    @apply flex-[5.5] h-full
+}
+
+.feedWrapper {
+    @apply p-5
+}

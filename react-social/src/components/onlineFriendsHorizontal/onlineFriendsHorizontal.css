@@ -1,0 +1,15 @@
+.horizontalFriends {
+    @apply relative h-auto items-center p-5 flex lg:hidden
+}
+
+.horizontalFollowingImg {
+    @apply w-16 h-16 object-cover rounded-full cursor-pointer space-x-5
+}
+
+#slider {
+    @apply  h-full flex overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide px-7
+}
+
+.linkFriend {
+    @apply no-underline mx-1
+}

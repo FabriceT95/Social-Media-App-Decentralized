@@ -1,0 +1,27 @@
+.message {
+    @apply flex flex-col mt-5
+}
+
+.messageTop{
+    @apply flex
+}
+
+.messageImg {
+    @apply w-8 h-8 rounded-full object-cover mr-3
+}
+
+.messageText {
+    @apply p-3 px-5 rounded-3xl bg-white text-mainPurple max-w-xs
+}
+
+.message.own {
+    @apply items-end
+}
+
+.message.own .messageText {
+    @apply bg-mainPurple text-white
+}
+
+.messageBottom {
+    @apply text-secondaryHeadline
+}

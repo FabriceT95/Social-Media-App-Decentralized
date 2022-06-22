@@ -1,0 +1,67 @@
+.post {
+    @apply w-full rounded-xl shadow-lg mt-8 mb-8 bg-secondaryHeadline bg-opacity-20 backdrop-blur
+}
+
+.postWrapper {
+    @apply px-9 py-7
+}
+
+.postTop {
+    @apply flex items-center justify-between
+}
+
+.postTopLeft {
+    @apply flex items-center
+}
+
+.postTopRight {
+    @apply text-primaryHeadline
+}
+
+.postProfileImg {
+    @apply w-8 h-8 rounded-full object-cover
+}
+
+.postUsername {
+    @apply text-base font-medium ml-3 mr-5 text-primaryHeadline
+}
+
+.postDate {
+    @apply text-xs text-primaryHeadline text-opacity-60
+}
+
+.postCenter {
+    @apply my-10
+}
+
+.postText {
+    @apply text-primaryHeadline
+}
+
+.postImg {
+    @apply mt-20 w-full max-h-[500px] object-contain
+}
+
+.postBottom {
+    @apply flex items-center justify-between
+}
+
+.postBottomLeft {
+    @apply flex items-center
+}
+
+.likedIcon {
+    @apply w-8 h-8 mr-2 cursor-pointer rounded-full flex items-center justify-center bg-mainPurple
+}
+
+.dislikedIcon {
+    @apply w-8 h-8 mr-2 cursor-pointer rounded-full flex items-center justify-center bg-primaryHeadline
+}
+
+.postLikeCounter {
+    @apply text-base font-bold text-primaryHeadline
+}
+
+.postCommentText {
+    @apply cursor-pointer border-b-[1px] border-dashed border-gray-500 text-primaryHeadline
+}

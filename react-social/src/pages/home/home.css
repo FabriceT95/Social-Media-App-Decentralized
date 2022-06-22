@@ -1,0 +1,12 @@
+.homeContainer {
+    @apply flex w-full
+    /* flex-1 */
+}
+
+.mobileFeedContainer {
+    @apply flex-[5.5] h-full
+}
+
+/* .mainContainer {
+    @apply h-screen flex flex-col
+} */

@@ -1,0 +1,47 @@
+.topbarContainer {
+    @apply h-20 bg-mainPurple flex items-center sticky top-4 z-50 opacity-90 mx-3 my-4 rounded-2xl backdrop-blur
+}
+
+.topbarLeft {
+    @apply flex-[3]
+}
+
+.topbarCenter {
+    @apply flex-[5]
+}
+
+.topbarRight {
+    @apply flex-[4] flex items-center justify-around text-white mr-2
+}
+
+.topbarIcons {
+    @apply hidden lg:flex
+}
+
+.topbarIconItem {
+    @apply mr-[15px] cursor-pointer relative
+}
+
+.topbarIconBadge {
+    @apply h-[15px] w-[15px] bg-red-600 rounded-full text-white absolute top-[-5px] right-[-5px] flex justify-center text-[12px]
+}
+
+.topbarImg {
+    @apply w-8 h-8 rounded-full object-cover cursor-pointer
+}
+
+.searchbar {
+    @apply w-full h-[30px] bg-white rounded-[30px] p-5 flex items-center
+} 
+
+.searchIcon {
+    @apply text-[20px] mx-3 !important ;
+}
+
+.searchInput {
+    @apply border-none w-[70%] focus:outline-none
+}
+
+.logo {
+    @apply text-2xl ml-5 text-white font-bold
+}

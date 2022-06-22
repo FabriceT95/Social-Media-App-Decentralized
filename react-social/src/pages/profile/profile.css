@@ -1,0 +1,36 @@
+.profile {
+    @apply flex
+}
+
+.profileRight {
+    @apply flex-[9]
+}
+
+.profileCover {
+    @apply h-80 relative
+}
+
+.profileCoverImg {
+    @apply w-full h-64 object-cover
+}
+
+.profileUserImg {
+    @apply w-36 h-36  rounded-full object-cover absolute left-0 right-0 top-36 m-auto border-4 border-white
+}
+
+.profileInfo {
+    @apply flex flex-col items-center justify-center
+}
+
+.profileInfoName {
+    @apply text-2xl text-white
+}
+
+.profileInfoDesc {
+    @apply font-light text-white
+}
+
+.profileRightBottom {
+    @apply flex
+}
+

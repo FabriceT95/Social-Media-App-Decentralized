@@ -1,0 +1,80 @@
+.rightbar {
+    @apply hidden lg:flex /* flex-[3.5] */ backdrop-blur
+}
+
+.rightbarWrapper {
+    @apply mt-5 mr-5 p-5 bg-secondaryHeadline bg-opacity-20 rounded-xl 
+}
+
+.birthdayContainer {
+    @apply flex items-center py-4 px-5 
+}
+
+.birthdayImg {
+    @apply w-10 h-10 mr-3 bg-inherit
+}
+
+.birthdayText {
+    @apply font-light text-primaryHeadline text-base
+}
+
+.birthdayText b {
+    @apply font-semibold
+}
+
+.rightbarFriends {
+    @apply py-4 px-5
+}
+
+
+.rightbarFriendList {
+    @apply p-0 m-0 list-none
+}
+
+.rightbarTitle {
+    @apply text-lg font-medium mb-5 text-primaryHeadline
+}
+
+.rightbarInfo {
+    @apply mb-7
+}
+
+.rightbarInfoItem {
+    @apply mb-3
+}
+
+.rightbarInfoKey {
+    @apply font-medium mr-4 text-white
+}
+
+.rightbarInfoValue {
+    @apply font-light
+}
+
+.rightbarFollowings {
+    @apply flex flex-wrap 
+}
+
+.rightbarFollowing {
+    @apply flex flex-col mb-5 p-3 pb-0 cursor-pointer mx-3 bg-mainPurple bg-opacity-80 rounded-xl
+}
+
+.rightbarFollowingImg {
+    @apply w-24 h-24 object-cover rounded-md
+}
+
+.rightbarFollowingName {
+    @apply text-center p-3 text-white
+}
+
+.rightbarFollowButton {
+    @apply mt-8 mb-3 border-none bg-[#1872f2] text-white rounded-md py-1 px-3 flex items-center text-base font-medium cursor-pointer focus:outline-none
+}
+
+.sectionSeparator {
+    @apply my-5
+}
+
+.rightbarFollowingCircle {
+    @apply rounded-md border-white border-solid border-2
+}
